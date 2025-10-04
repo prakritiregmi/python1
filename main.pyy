@@ -1,0 +1,11 @@
+# main.py
+from datetime import datetime
+
+def greet():
+    name = input("What's your name? ")
+    today = datetime.now().strftime("%A, %B %d, %Y")
+    print(f"Hello, {name}! 👋")
+    print(f"Today is {today}. Have a great day!")
+
+if __name__ == "__main__":
+    greet()
